@@ -97,10 +97,6 @@ genai-financial-analytics/
 ├── streamlit_langchain_app.py         # Streamlit dashboard
 ├── requirements.txt                   # Python dependencies
 ├── financial_data.db                  # SQLite database (auto-generated)
-├── screenshots/                       # Application screenshots
-│   ├── dashboard.png
-│   ├── query-results.png
-│   └── visualization.png
 └── README.md                          # Project documentation
 ```
 
@@ -108,14 +104,14 @@ genai-financial-analytics/
 
 ### LangChainFinancialAnalyzer
 - Manages database connections and operations
-
   ![image](https://github.com/user-attachments/assets/257dd723-f40a-4093-89d7-99aae2152677)
-
-- Integrates with OpenAI for natural language processing
-
-  
+- Integrates with OpenAI for natural language processing 
 - Generates SQL queries from business questions
+  ![image](https://github.com/user-attachments/assets/9441886f-4bb0-4275-b2cc-f11a3cc6bf7b)
+- Genarates Visualization with zoom features,downloading plot and other tools for fullscreen also
+  ![image](https://github.com/user-attachments/assets/8600fbee-225c-4b9d-b291-d2df5cc4e0b8)
 - Provides AI-powered insights and recommendations
+![image](https://github.com/user-attachments/assets/84e65891-3fd8-433b-8389-dd7358f9119e)
 
 ### Database Schema
 - **customers**: Customer information including credit scores, income, and risk categories
